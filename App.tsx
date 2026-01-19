@@ -8,7 +8,7 @@ import { StripeProvider } from "@stripe/stripe-react-native";
 
 export default function App() {
   return (
-   <StripeProvider publishableKey ="">
+   //<StripeProvider publishableKey ="">
    <NavigationContainer>
       <UserProvider>
         <CartProvider>
@@ -16,7 +16,7 @@ export default function App() {
         </CartProvider>
       </UserProvider>
     </NavigationContainer>
-   </StripeProvider>
+   //</StripeProvider>
 
   );
 }
